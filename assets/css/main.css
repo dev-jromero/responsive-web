@@ -8,7 +8,25 @@
 .picture1,.picture2, .picture3, .picture4, .picture5, .picture6{
     margin:10px;
 }
+.img1,.img2, .img3, .img4, .img5, .img6{
+    margin:10px;
+}
 #gallery img{
     box-shadow: 2px  3px;
     width:100%;
+}
+.picture2,.picture4,.picture6{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+
+}
+.picture3{
+    -webkit-filter: sepia(100%);
+    filter:sepia(100%);
+}
+.picture5{
+    -webkit-filter:brightness(80%);
+    filter:brightness(80%);
+}
+
 }
