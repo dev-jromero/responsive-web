@@ -1,0 +1,7 @@
+/*Estilo para pantallas de movil*/
+@media all and (max-width:699px) and (min-width:100px){
+    .nav-menu{
+        width:300px;
+        background-color: aqua;
+    }
+}
